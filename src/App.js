@@ -1,13 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import HomeContainer from './containers/HomeContainer'
+
 
 function App() {
   return (
     <div className="App">
-      <h1>
-        Hello, This is anas here.
-      </h1>
-      <p> I am currently leaning Redux...</p>
+      <HomeContainer />
     </div>
   );
 }
